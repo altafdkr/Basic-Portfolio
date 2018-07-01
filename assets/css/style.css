@@ -105,13 +105,17 @@ footer {
 
 h1, h2, h3, h3, h4, h5 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
     font-weight: bold;
     letter-spacing: 2px;
 }
 
 h1 {
     font-size: 22px;
+    color: #4aaaa5;
+}
+
+h2 {
+    font-size: 20px;
 }
 
 p {
@@ -171,3 +175,23 @@ textarea {
     color: #ffffff;
     font-size: 18px;
 }
+
+ul { 
+    list-style-type: disc; 
+    list-style-position: inside;
+    margin: 0px 30px; 
+ }
+ ol { 
+    list-style-type: decimal; 
+    list-style-position: inside; 
+ }
+ ul ul, ol ul { 
+    list-style-type: circle; 
+    list-style-position: inside; 
+    margin-left: 15px; 
+ }
+ ol ol, ul ol { 
+    list-style-type: lower-latin; 
+    list-style-position: inside; 
+    margin-left: 15px; 
+ }
