@@ -35,7 +35,7 @@ header {
 section {
     background-color: #ffffff;
     padding: 30px;
-    border: 1px solid #cccccc;
+    border: 1px solid #dddddd;
     margin-bottom: 100px;
 }
 
@@ -121,6 +121,15 @@ h2 {
 p {
     margin-bottom: 20px;
 }
+
+a {
+ color: #4aaaa5;
+ text-decoration: none;   
+}
+
+a:hover {
+    text-decoration: underline;   
+   }
 
 .greyhr {
     height: 3px;
